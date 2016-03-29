@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smertxx.zadacha.Game4"
+    android:background="#fafaaa">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="назад"
+        android:id="@+id/button9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold"
+        android:onClick="ppp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ОСНОВНЫЕ ИНГРИДИЕНТЫ:
+кетчуп томатный: 4 ст. л.
+чеснок: 1 ч. л.
+майонез: 4 ст. л.
+сыр: по вкусу
+паприка красная молотая: по вкусу
+перец черный молотый: по вкусу
+лук красный: по вкусу
+колбаса вареная: 200 гр.
+помидоры: 1 шт.
+мука: по вкусу
+тесто дрожжевое: 250 гр.
+"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold|italic"
+        android:textSize="19dp"
+        android:textIsSelectable="false"
+        android:textColor="#010101"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="поделиться"
+        android:id="@+id/button12"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:onClick="sendMail4"/>
+</RelativeLayout>

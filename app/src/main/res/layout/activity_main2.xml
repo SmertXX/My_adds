@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smertxx.zadacha.Main2Activity"
+    android:background="#646464">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ПИЦЦА ИЗ ЧЕРСТВОГО ХЛЕБА"
+        android:id="@+id/button2"
+        android:layout_marginTop="35dp"
+        android:onClick="game1"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="''ХОЛОСТЯЦКАЯ'' ПИЦЦА"
+        android:id="@+id/button4"
+        android:onClick="game2"
+        android:layout_marginTop="59dp"
+        android:textStyle="normal|bold|italic"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="БЫСТРАЯ ПИЦЦА С ПЕРЦЕМ"
+        android:id="@+id/button6"
+        android:onClick="game3"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ПИЦЦА"
+        android:id="@+id/button8"
+        android:onClick="game4"
+        android:textStyle="italic"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+</RelativeLayout>

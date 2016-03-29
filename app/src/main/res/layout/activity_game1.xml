@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smertxx.zadacha.Game1"
+    android:background="#cfcfcf">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="назад"
+        android:id="@+id/button3"
+        android:onClick="ppp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ОСНОВНЫЕ ИНГРИДИЕНТЫ:
+перцовая паста: 1 ст. л.
+оливковое масло: 1 ст. л.
+перец болгарский зеленый: 1 шт.
+помидоры черри: 2 шт.
+сыр: 6 кусков
+моцарелла: 25 г
+маслины без косточек: 3 шт.
+сосиски: 1 шт.
+хлеб серый: 3 куска
+"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentBottom="true"
+        android:password="false"
+        android:singleLine="false"
+        android:textIsSelectable="false"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:enabled="false"
+        android:textStyle="normal|italic"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="поделиться"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:onClick="sendMail1"/>
+
+</RelativeLayout>
